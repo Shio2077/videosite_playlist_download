@@ -43,7 +43,7 @@ def main():
     主程序入口
     """
     if len(sys.argv) < 2:
-        print("用法: python script.py <YouTube视频链接>")
+        print("用法: python script.py <视频链接>")
         sys.exit(1)
     
     video_url = sys.argv[1]

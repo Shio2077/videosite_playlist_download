@@ -83,7 +83,7 @@ def save_to_file(videos_info, output_file='playlist_info.txt'):
 
 def main():
     if len(sys.argv) < 2:
-        print("用法: python script.py <YouTube视频链接>")
+        print("用法: python3 yt-list.py <播放列表URL>")
         sys.exit(1)
     
     playlist_url = sys.argv[1]
